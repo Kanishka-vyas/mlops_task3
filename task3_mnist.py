@@ -26,7 +26,7 @@ model.compile(optimizer='adam', loss='categorical_crossentropy',  metrics=['accu
 h = model.fit(X_train, y_train_cat, epochs=10)
 
 import numpy as np
-file = open("accuracy.txt",'w+')
+file = open("/root/ws/accuracy.txt",'w+')
 file.write(np.array2string(h.history['accuracy'][-1]*100))
 file.close()
   
