@@ -4,7 +4,7 @@ s = smtplib.SMTP("smtp.gmail.com" , 587)
 
 s.starttls()
 
-s.login("kanishkavyas74@gmail.com","josephedwardroot74")
+s.login("kanishkavyas74@gmail.com","password")
 
 message = "your model has achieved desired accuracy"
 
